@@ -1,0 +1,77 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.text-center {
+  text-align: center;
+}
+.delete-btn i {
+  color: white;
+  padding: 3px;
+}
+.delete-btn {
+  background-color: #dc3545;
+  border: 2px solid #dc3545;
+  border-radius: 4px;
+}
+.form-student {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.btn-list {
+  display: flex;
+  justify-content: space-around;
+  width: 22%;
+}
+.input-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 2%;
+  height: 200px;
+  justify-content: space-around;
+}
+.main-heading {
+  text-align: center;
+}
+.add-student {
+  float: right;
+  background-color: #017bfb;
+  height: 30px;
+  border: 2px solid #017bfb;
+  border-radius: 4px;
+  color: white;
+}
+.createBtn {
+  background-color: #3f51b5;
+  color: white;
+  border: 1px solid #3f51b5;
+  border-radius: 2px;
+  height: 30px;
+}
+.clearBtn {
+  background-color: #e0e0e0;
+  color: black;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  height: 30px;
+}
+.cancelBtn {
+  background-color: #f50057;
+  color: white;
+  border: 1px solid #f50057;
+  border-radius: 2px;
+  height: 30px;
+}
